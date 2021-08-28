@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D34860A626DAD1A70038FB05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34860A526DAD1A70038FB05 /* AppDelegate.swift */; };
+		D34860A826DAD1A70038FB05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34860A726DAD1A70038FB05 /* SceneDelegate.swift */; };
+		D34860AA26DAD1A70038FB05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34860A926DAD1A70038FB05 /* ViewController.swift */; };
+		D34860AD26DAD1A70038FB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34860AB26DAD1A70038FB05 /* Main.storyboard */; };
+		D34860B026DAD1A70038FB05 /* Salvar_Dados.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D34860AE26DAD1A70038FB05 /* Salvar_Dados.xcdatamodeld */; };
+		D34860B226DAD1A80038FB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34860B126DAD1A80038FB05 /* Assets.xcassets */; };
+		D34860B526DAD1A80038FB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34860B326DAD1A80038FB05 /* LaunchScreen.storyboard */; };
+		D34860C026DAD1A80038FB05 /* Salvar_DadosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34860BF26DAD1A80038FB05 /* Salvar_DadosTests.swift */; };
+		D34860CB26DAD1A80038FB05 /* Salvar_DadosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34860CA26DAD1A80038FB05 /* Salvar_DadosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D34860BC26DAD1A80038FB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D348609A26DAD1A70038FB05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D34860A126DAD1A70038FB05;
+			remoteInfo = "Salvar Dados";
+		};
+		D34860C726DAD1A80038FB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D348609A26DAD1A70038FB05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D34860A126DAD1A70038FB05;
+			remoteInfo = "Salvar Dados";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D34860A226DAD1A70038FB05 /* Salvar Dados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salvar Dados.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34860A526DAD1A70038FB05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D34860A726DAD1A70038FB05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D34860A926DAD1A70038FB05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D34860AC26DAD1A70038FB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D34860AF26DAD1A70038FB05 /* Salvar_Dados.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Salvar_Dados.xcdatamodel; sourceTree = "<group>"; };
+		D34860B126DAD1A80038FB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D34860B426DAD1A80038FB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D34860B626DAD1A80038FB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D34860BB26DAD1A80038FB05 /* Salvar DadosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Salvar DadosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34860BF26DAD1A80038FB05 /* Salvar_DadosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salvar_DadosTests.swift; sourceTree = "<group>"; };
+		D34860C126DAD1A80038FB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D34860C626DAD1A80038FB05 /* Salvar DadosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Salvar DadosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34860CA26DAD1A80038FB05 /* Salvar_DadosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salvar_DadosUITests.swift; sourceTree = "<group>"; };
+		D34860CC26DAD1A80038FB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D348609F26DAD1A70038FB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34860B826DAD1A80038FB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34860C326DAD1A80038FB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D348609926DAD1A70038FB05 = {
+			isa = PBXGroup;
+			children = (
+				D34860A426DAD1A70038FB05 /* Salvar Dados */,
+				D34860BE26DAD1A80038FB05 /* Salvar DadosTests */,
+				D34860C926DAD1A80038FB05 /* Salvar DadosUITests */,
+				D34860A326DAD1A70038FB05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D34860A326DAD1A70038FB05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D34860A226DAD1A70038FB05 /* Salvar Dados.app */,
+				D34860BB26DAD1A80038FB05 /* Salvar DadosTests.xctest */,
+				D34860C626DAD1A80038FB05 /* Salvar DadosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D34860A426DAD1A70038FB05 /* Salvar Dados */ = {
+			isa = PBXGroup;
+			children = (
+				D34860A526DAD1A70038FB05 /* AppDelegate.swift */,
+				D34860A726DAD1A70038FB05 /* SceneDelegate.swift */,
+				D34860A926DAD1A70038FB05 /* ViewController.swift */,
+				D34860AB26DAD1A70038FB05 /* Main.storyboard */,
+				D34860B126DAD1A80038FB05 /* Assets.xcassets */,
+				D34860B326DAD1A80038FB05 /* LaunchScreen.storyboard */,
+				D34860B626DAD1A80038FB05 /* Info.plist */,
+				D34860AE26DAD1A70038FB05 /* Salvar_Dados.xcdatamodeld */,
+			);
+			path = "Salvar Dados";
+			sourceTree = "<group>";
+		};
+		D34860BE26DAD1A80038FB05 /* Salvar DadosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D34860BF26DAD1A80038FB05 /* Salvar_DadosTests.swift */,
+				D34860C126DAD1A80038FB05 /* Info.plist */,
+			);
+			path = "Salvar DadosTests";
+			sourceTree = "<group>";
+		};
+		D34860C926DAD1A80038FB05 /* Salvar DadosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D34860CA26DAD1A80038FB05 /* Salvar_DadosUITests.swift */,
+				D34860CC26DAD1A80038FB05 /* Info.plist */,
+			);
+			path = "Salvar DadosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D34860A126DAD1A70038FB05 /* Salvar Dados */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34860CF26DAD1A80038FB05 /* Build configuration list for PBXNativeTarget "Salvar Dados" */;
+			buildPhases = (
+				D348609E26DAD1A70038FB05 /* Sources */,
+				D348609F26DAD1A70038FB05 /* Frameworks */,
+				D34860A026DAD1A70038FB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Salvar Dados";
+			productName = "Salvar Dados";
+			productReference = D34860A226DAD1A70038FB05 /* Salvar Dados.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D34860BA26DAD1A80038FB05 /* Salvar DadosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34860D226DAD1A80038FB05 /* Build configuration list for PBXNativeTarget "Salvar DadosTests" */;
+			buildPhases = (
+				D34860B726DAD1A80038FB05 /* Sources */,
+				D34860B826DAD1A80038FB05 /* Frameworks */,
+				D34860B926DAD1A80038FB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D34860BD26DAD1A80038FB05 /* PBXTargetDependency */,
+			);
+			name = "Salvar DadosTests";
+			productName = "Salvar DadosTests";
+			productReference = D34860BB26DAD1A80038FB05 /* Salvar DadosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D34860C526DAD1A80038FB05 /* Salvar DadosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34860D526DAD1A80038FB05 /* Build configuration list for PBXNativeTarget "Salvar DadosUITests" */;
+			buildPhases = (
+				D34860C226DAD1A80038FB05 /* Sources */,
+				D34860C326DAD1A80038FB05 /* Frameworks */,
+				D34860C426DAD1A80038FB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D34860C826DAD1A80038FB05 /* PBXTargetDependency */,
+			);
+			name = "Salvar DadosUITests";
+			productName = "Salvar DadosUITests";
+			productReference = D34860C626DAD1A80038FB05 /* Salvar DadosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D348609A26DAD1A70038FB05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D34860A126DAD1A70038FB05 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D34860BA26DAD1A80038FB05 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D34860A126DAD1A70038FB05;
+					};
+					D34860C526DAD1A80038FB05 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D34860A126DAD1A70038FB05;
+					};
+				};
+			};
+			buildConfigurationList = D348609D26DAD1A70038FB05 /* Build configuration list for PBXProject "Salvar Dados" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D348609926DAD1A70038FB05;
+			productRefGroup = D34860A326DAD1A70038FB05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D34860A126DAD1A70038FB05 /* Salvar Dados */,
+				D34860BA26DAD1A80038FB05 /* Salvar DadosTests */,
+				D34860C526DAD1A80038FB05 /* Salvar DadosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D34860A026DAD1A70038FB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34860B526DAD1A80038FB05 /* LaunchScreen.storyboard in Resources */,
+				D34860B226DAD1A80038FB05 /* Assets.xcassets in Resources */,
+				D34860AD26DAD1A70038FB05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34860B926DAD1A80038FB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34860C426DAD1A80038FB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D348609E26DAD1A70038FB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34860B026DAD1A70038FB05 /* Salvar_Dados.xcdatamodeld in Sources */,
+				D34860AA26DAD1A70038FB05 /* ViewController.swift in Sources */,
+				D34860A626DAD1A70038FB05 /* AppDelegate.swift in Sources */,
+				D34860A826DAD1A70038FB05 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34860B726DAD1A80038FB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34860C026DAD1A80038FB05 /* Salvar_DadosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34860C226DAD1A80038FB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34860CB26DAD1A80038FB05 /* Salvar_DadosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D34860BD26DAD1A80038FB05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D34860A126DAD1A70038FB05 /* Salvar Dados */;
+			targetProxy = D34860BC26DAD1A80038FB05 /* PBXContainerItemProxy */;
+		};
+		D34860C826DAD1A80038FB05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D34860A126DAD1A70038FB05 /* Salvar Dados */;
+			targetProxy = D34860C726DAD1A80038FB05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D34860AB26DAD1A70038FB05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D34860AC26DAD1A70038FB05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D34860B326DAD1A80038FB05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D34860B426DAD1A80038FB05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D34860CD26DAD1A80038FB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D34860CE26DAD1A80038FB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D34860D026DAD1A80038FB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Salvar Dados/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Salvar-Dados";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D34860D126DAD1A80038FB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Salvar Dados/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Salvar-Dados";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D34860D326DAD1A80038FB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Salvar DadosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Salvar-DadosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salvar Dados.app/Salvar Dados";
+			};
+			name = Debug;
+		};
+		D34860D426DAD1A80038FB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Salvar DadosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Salvar-DadosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salvar Dados.app/Salvar Dados";
+			};
+			name = Release;
+		};
+		D34860D626DAD1A80038FB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Salvar DadosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Salvar-DadosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Salvar Dados";
+			};
+			name = Debug;
+		};
+		D34860D726DAD1A80038FB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "Salvar DadosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.Salvar-DadosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Salvar Dados";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D348609D26DAD1A70038FB05 /* Build configuration list for PBXProject "Salvar Dados" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34860CD26DAD1A80038FB05 /* Debug */,
+				D34860CE26DAD1A80038FB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D34860CF26DAD1A80038FB05 /* Build configuration list for PBXNativeTarget "Salvar Dados" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34860D026DAD1A80038FB05 /* Debug */,
+				D34860D126DAD1A80038FB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D34860D226DAD1A80038FB05 /* Build configuration list for PBXNativeTarget "Salvar DadosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34860D326DAD1A80038FB05 /* Debug */,
+				D34860D426DAD1A80038FB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D34860D526DAD1A80038FB05 /* Build configuration list for PBXNativeTarget "Salvar DadosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34860D626DAD1A80038FB05 /* Debug */,
+				D34860D726DAD1A80038FB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D34860AE26DAD1A70038FB05 /* Salvar_Dados.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D34860AF26DAD1A70038FB05 /* Salvar_Dados.xcdatamodel */,
+			);
+			currentVersion = D34860AF26DAD1A70038FB05 /* Salvar_Dados.xcdatamodel */;
+			path = Salvar_Dados.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D348609A26DAD1A70038FB05 /* Project object */;
+}
